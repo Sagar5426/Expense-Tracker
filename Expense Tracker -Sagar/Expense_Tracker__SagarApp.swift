@@ -13,5 +13,6 @@ struct Expense_Tracker__SagarApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: [Transaction.self])
     }
 }

@@ -14,6 +14,7 @@
 		451DFC4D2C80CFFB00154788 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451DFC4C2C80CFFB00154788 /* SwipeAction.swift */; };
 		451DFC4F2C80D89400154788 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451DFC4E2C80D89400154788 /* DateFilterView.swift */; };
 		459AB13B2C820AE0007DBEB7 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459AB13A2C820AE0007DBEB7 /* LockView.swift */; };
+		45E766662C831EFB0009555B /* NewExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E766652C831EFB0009555B /* NewExpenseView.swift */; };
 		45F6B2262C7F79C6008407A5 /* Expense_Tracker__SagarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6B2252C7F79C6008407A5 /* Expense_Tracker__SagarApp.swift */; };
 		45F6B2282C7F79C6008407A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6B2272C7F79C6008407A5 /* ContentView.swift */; };
 		45F6B22A2C7F79C8008407A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F6B2292C7F79C8008407A5 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		451DFC4C2C80CFFB00154788 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		451DFC4E2C80D89400154788 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
 		459AB13A2C820AE0007DBEB7 /* LockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		45E766652C831EFB0009555B /* NewExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenseView.swift; sourceTree = "<group>"; };
 		45F6B2222C7F79C6008407A5 /* Expense Tracker -Sagar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense Tracker -Sagar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F6B2252C7F79C6008407A5 /* Expense_Tracker__SagarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_Tracker__SagarApp.swift; sourceTree = "<group>"; };
 		45F6B2272C7F79C6008407A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -165,9 +167,10 @@
 		45F6B2502C7F79F6008407A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				45F6B2512C7F7A05008407A5 /* IntroScreen.swift */,
+				45E766652C831EFB0009555B /* NewExpenseView.swift */,
 				451DFC262C80550A00154788 /* View_Helpers */,
 				45F6B2602C7F921A008407A5 /* TabViews */,
-				45F6B2512C7F7A05008407A5 /* IntroScreen.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				451DFC282C80553400154788 /* CardView.swift in Sources */,
 				451DFC4D2C80CFFB00154788 /* SwipeAction.swift in Sources */,
 				45F6B2522C7F7A05008407A5 /* IntroScreen.swift in Sources */,
+				45E766662C831EFB0009555B /* NewExpenseView.swift in Sources */,
 				45F6B2592C7F823C008407A5 /* Tab.swift in Sources */,
 				45F6B2682C7F9241008407A5 /* Settings.swift in Sources */,
 				45F6B2262C7F79C6008407A5 /* Expense_Tracker__SagarApp.swift in Sources */,

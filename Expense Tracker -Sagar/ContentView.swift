@@ -12,12 +12,12 @@ struct ContentView: View {
     @AppStorage("isFirstTime") private var isFirstTime: Bool = true
     // App Lock Properties
     @AppStorage("isAppLockEnabled") private var isAppLockEnabled:Bool = false
-    @AppStorage("lockWhenAppGoesBackground") private var lockWhenAppGoesBackground: Bool = false
+    @AppStorage("lockWhenAppGoesBackground")  private var lockWhenAppGoesBackground: Bool = false
     //Active tab
-    @State private var activeTab: Tab = .settings
+    @State private var activeTab: Tab = .recents
     
     var body: some View {
-        LockView(lockType: .biometric, lockPin: "", isEnabled: isAppLockEnabled, lockWhenAppGoesBackground: lockWhenAppGoesBackground) {
+        LockView(lockType: .both, lockPin: "0000", isEnabled: isAppLockEnabled, lockWhenAppGoesBackground: lockWhenAppGoesBackground) {
             
             
             TabView(selection: $activeTab) {
