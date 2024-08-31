@@ -13,6 +13,7 @@
 		451DFC2C2C806AD900154788 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451DFC2B2C806AD900154788 /* TransactionCardView.swift */; };
 		451DFC4D2C80CFFB00154788 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451DFC4C2C80CFFB00154788 /* SwipeAction.swift */; };
 		451DFC4F2C80D89400154788 /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451DFC4E2C80D89400154788 /* DateFilterView.swift */; };
+		459AB13B2C820AE0007DBEB7 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459AB13A2C820AE0007DBEB7 /* LockView.swift */; };
 		45F6B2262C7F79C6008407A5 /* Expense_Tracker__SagarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6B2252C7F79C6008407A5 /* Expense_Tracker__SagarApp.swift */; };
 		45F6B2282C7F79C6008407A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6B2272C7F79C6008407A5 /* ContentView.swift */; };
 		45F6B22A2C7F79C8008407A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F6B2292C7F79C8008407A5 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		451DFC2B2C806AD900154788 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
 		451DFC4C2C80CFFB00154788 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		451DFC4E2C80D89400154788 /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
+		459AB13A2C820AE0007DBEB7 /* LockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 		45F6B2222C7F79C6008407A5 /* Expense Tracker -Sagar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense Tracker -Sagar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F6B2252C7F79C6008407A5 /* Expense_Tracker__SagarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_Tracker__SagarApp.swift; sourceTree = "<group>"; };
 		45F6B2272C7F79C6008407A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		451DFC262C80550A00154788 /* View_Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				459AB13A2C820AE0007DBEB7 /* LockView.swift */,
 				451DFC272C80553400154788 /* CardView.swift */,
 				451DFC2B2C806AD900154788 /* TransactionCardView.swift */,
 				451DFC4C2C80CFFB00154788 /* SwipeAction.swift */,
@@ -334,6 +337,7 @@
 				45F6B2642C7F9233008407A5 /* Search.swift in Sources */,
 				451DFC252C804D4800154788 /* Date+Extensions.swift in Sources */,
 				45F6B2572C7F7CC7008407A5 /* Constants.swift in Sources */,
+				459AB13B2C820AE0007DBEB7 /* LockView.swift in Sources */,
 				451DFC232C80294F00154788 /* View+Extensions.swift in Sources */,
 				45F6B2662C7F923C008407A5 /* Graphs.swift in Sources */,
 				45F6B25B2C7F8B42008407A5 /* Category.swift in Sources */,
@@ -501,6 +505,7 @@
 				DEVELOPMENT_TEAM = 75RPJYM6U7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Need permission to unlock your data with Face ID";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -530,6 +535,7 @@
 				DEVELOPMENT_TEAM = 75RPJYM6U7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Need permission to unlock your data with Face ID";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
