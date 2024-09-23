@@ -23,6 +23,18 @@
 		4574467B2C99C12200E4DC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4574467A2C99C12200E4DC11 /* Assets.xcassets */; };
 		4574467F2C99C12200E4DC11 /* StatsCardViewExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4574466F2C99C12000E4DC11 /* StatsCardViewExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		459AB13B2C820AE0007DBEB7 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459AB13A2C820AE0007DBEB7 /* LockView.swift */; };
+		459E384F2C9C844D000B7C53 /* FilterTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451AEE4C2C8F22A200EB94DC /* FilterTransactionsView.swift */; };
+		459E38502C9C84AE000B7C53 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451DFC222C80294F00154788 /* View+Extensions.swift */; };
+		459E38512C9C84B7000B7C53 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451DFC242C804D4800154788 /* Date+Extensions.swift */; };
+		459E38522C9C8508000B7C53 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451DFC272C80553400154788 /* CardView.swift */; };
+		459E38542C9C85A4000B7C53 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6B25A2C7F8B42008407A5 /* Category.swift */; };
+		459E38552C9C85B3000B7C53 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457446692C99B22700E4DC11 /* ChartModel.swift */; };
+		459E38562C9C85BA000B7C53 /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6B25E2C7F8D1A008407A5 /* TintColor.swift */; };
+		45A8154A2C9C86A000EB5529 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6B2582C7F823C008407A5 /* Tab.swift */; };
+		45A8154B2C9C88A200EB5529 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6B25C2C7F8B89008407A5 /* Transaction.swift */; };
+		45A8154C2C9C88A200EB5529 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6B25C2C7F8B89008407A5 /* Transaction.swift */; };
+		45A8154D2C9C88A200EB5529 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6B25C2C7F8B89008407A5 /* Transaction.swift */; };
+		45D6CA1F2C9C8A22006B0BCF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6B2562C7F7CC7008407A5 /* Constants.swift */; };
 		45E766662C831EFB0009555B /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E766652C831EFB0009555B /* TransactionView.swift */; };
 		45F6B2262C7F79C6008407A5 /* Expense_Tracker__SagarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6B2252C7F79C6008407A5 /* Expense_Tracker__SagarApp.swift */; };
 		45F6B2282C7F79C6008407A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6B2272C7F79C6008407A5 /* ContentView.swift */; };
@@ -351,7 +363,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					4574466E2C99C12000E4DC11 = {
 						CreatedOnToolsVersion = 15.4;
@@ -429,8 +441,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A8154D2C9C88A200EB5529 /* Transaction.swift in Sources */,
+				459E384F2C9C844D000B7C53 /* FilterTransactionsView.swift in Sources */,
 				457446792C99C12000E4DC11 /* StatsCardView.swift in Sources */,
+				459E38502C9C84AE000B7C53 /* View+Extensions.swift in Sources */,
+				459E38552C9C85B3000B7C53 /* ChartModel.swift in Sources */,
+				45A8154A2C9C86A000EB5529 /* Tab.swift in Sources */,
+				459E38512C9C84B7000B7C53 /* Date+Extensions.swift in Sources */,
+				459E38522C9C8508000B7C53 /* CardView.swift in Sources */,
 				457446772C99C12000E4DC11 /* StatsCardViewBundle.swift in Sources */,
+				459E38562C9C85BA000B7C53 /* TintColor.swift in Sources */,
+				459E38542C9C85A4000B7C53 /* Category.swift in Sources */,
+				45D6CA1F2C9C8A22006B0BCF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +489,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A8154B2C9C88A200EB5529 /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A8154C2C9C88A200EB5529 /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,7 +698,6 @@
 		45F6B2472C7F79C8008407A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -705,7 +728,6 @@
 		45F6B2482C7F79C8008407A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -736,7 +758,6 @@
 		45F6B24A2C7F79C8008407A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -756,7 +777,6 @@
 		45F6B24B2C7F79C8008407A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -776,7 +796,6 @@
 		45F6B24D2C7F79C8008407A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75RPJYM6U7;
@@ -794,7 +813,6 @@
 		45F6B24E2C7F79C8008407A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 75RPJYM6U7;
